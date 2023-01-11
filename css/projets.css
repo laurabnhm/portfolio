@@ -8,3 +8,14 @@ body {
     background-attachment: fixed;
     overflow-x: hidden;
 }
+
+
+/**********************************/
+/************** PAGE **************/
+/**********************************/
+
+.page-projets {
+    display: flex;
+    justify-content: center;
+    margin-top: 45vh;
+}
