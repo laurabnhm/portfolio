@@ -1,0 +1,59 @@
+/**********************************/
+/************** FONTS *************/
+/**********************************/
+
+@font-face {
+    font-family: 'Gallient';
+    src: url(../fonts/Gallient.ttf);
+}
+
+.txt-menu-clic {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+
+.title-laura {
+    color: white;
+    font-family: 'Gallient';
+}
+
+.title {
+    color: white;
+    font-family: 'Gallient';
+    font-size: 40px;
+}
+
+.txt-light {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+.txt-regular {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+h3 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+h4 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}
+
+p {
+    color: #CDCDCD;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+}

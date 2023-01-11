@@ -1,0 +1,10 @@
+/**********************************/
+/************** BODY **************/
+/**********************************/
+
+body {
+    background-image: url(../img/back-about.png);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}

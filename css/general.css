@@ -1,0 +1,147 @@
+/**********************************/
+/************ GENERAL *************/
+/**********************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.gabarit {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.gabarit-int {
+    display: flex;
+    flex-direction: column;
+}
+
+/**********************************/
+/************** MENU **************/
+/**********************************/
+
+.section-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-txt {
+    font-size: 12px;
+    text-decoration: none;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.menu-lign {
+    background-color: white;
+    width: 100px;
+    height: 0.5px;
+    margin-top: 10px;
+    scale: 0;
+}
+
+.img-logo {
+    width: 20px;
+}
+
+.select-lang {
+    font-size: 12px;
+}
+
+.menu-hamburger-open {
+    display: none;
+}
+
+/**********************************/
+/************ BOUTONS *************/
+/**********************************/
+
+.bouton-primaire {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid;
+    border-color: white;
+    border-width: 0.5px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+/**********************************/
+/************ GRAPHICS ************/
+/**********************************/
+
+.title-lign {
+    background-color: white;
+    width: 500px;
+    height: 0.5px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+
+/**********************************/
+/************* HOVER **************/
+/**********************************/
+
+.img-logo:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.menu-txt:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.2s;
+}
+
+#menu-txt-about:hover ~ #menu-lign-about {
+    scale: 1;
+    transition: 0.4s;
+}
+
+#menu-txt-projets:hover ~ #menu-lign-projets {
+    scale: 1;
+    transition: 0.4s;
+}
+
+#menu-txt-contact:hover ~ #menu-lign-contact {
+    scale: 1;
+    transition: 0.4s;
+}
+
+.bouton-primaire:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: 0.2s;
+    scale: 1.03;
+}
