@@ -1,0 +1,33 @@
+/**********************************/
+/************** FONTS *************/
+/**********************************/
+
+@font-face {
+    font-family: 'Gallient';
+    src: url(/fonts/Gallient.ttf);
+}
+
+
+.title-laura {
+    color: white;
+    font-family: 'Gallient';
+}
+
+.title {
+    color: white;
+    font-family: 'Gallient';
+    font-size: 40px;
+}
+
+.txt-light {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+.txt-regular {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+}
