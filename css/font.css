@@ -16,13 +16,13 @@
 .title-page {
     color: white;
     font-family: 'Gallient';
-    font-size: 55px;
+    font-size: 3.2vw;
 }
 
 .title {
     color: white;
     font-family: 'Gallient';
-    font-size: 40px;
+    font-size: 2vw;
 }
 
 .txt-light {
@@ -35,7 +35,7 @@
     color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 0.9vw;
 }
 
 h3 {
@@ -57,4 +57,22 @@ p {
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
     font-size: 12px;
+}
+
+
+/**********************************/
+/*********** RESPONSIVE ***********/
+/**********************************/
+
+/*--- IPAD PRO 12,9po ---*/
+@media screen and (max-width: 1366px) {
+
+    .title-page {
+        font-size: 48px;
+    }
+
+    .title {
+        font-size: 32px;
+    }
+
 }
