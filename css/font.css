@@ -76,3 +76,29 @@ p {
     }
 
 }
+
+/*--- IPAD PRO 10,5po ---*/
+@media screen and (max-width: 1112px) {
+
+    .title-page {
+        font-size: 40px;
+    }
+
+    .title {
+        font-size: 28px;
+    }
+
+}
+
+/*--- IPAD 9,7po ---*/
+@media screen and (max-width: 1024px) {
+
+    .title-page {
+        font-size: 36px;
+    }
+
+    .title {
+        font-size: 24px;
+    }
+
+}

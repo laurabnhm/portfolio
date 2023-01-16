@@ -1,0 +1,21 @@
+/**********************************/
+/************** BODY **************/
+/**********************************/
+
+body {
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+}
+
+
+/**********************************/
+/************** PAGE **************/
+/**********************************/
+
+.page-projets {
+    display: flex;
+    justify-content: center;
+    margin-top: 45vh;
+}
