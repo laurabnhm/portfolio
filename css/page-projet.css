@@ -14,8 +14,64 @@ body {
 /************** PAGE **************/
 /**********************************/
 
-.page-projets {
+.page-projet {
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    margin-top: 45vh;
+    align-items: center;
 }
+
+.en-tête {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    margin-top: 15vh;
+    margin-bottom: 7vh;
+}
+
+.title-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.title-page-projet {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.lign-head {
+    background-color: white;
+    width: 150px;
+    height: 0.5px;
+    padding-left: 20px;
+}
+
+.page-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.txt-projet {
+    width: 1000px;
+    text-align: center;
+}
+
+.img-projet {
+    width: 40%;
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    margin-top: 30px;
+}
+
+.boutons {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+

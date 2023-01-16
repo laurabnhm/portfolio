@@ -38,6 +38,21 @@
     font-size: 0.9vw;
 }
 
+.sub-title {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.txt-collab {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
 h3 {
     color: white;
     font-family: 'Raleway', sans-serif;
