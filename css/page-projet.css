@@ -143,3 +143,41 @@ body {
 #img-projet-urbanweek {
     width: 70%;
 }
+
+#img-projet-proliferation-photos {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+#img-projet-proliferation-colors {
+    width: 50%;
+    margin-bottom: 50px;
+}
+
+.img-proliferation-galerie {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+#img-projet-proliferation-texture-1 {
+    width: 15%;
+    margin: 10px;
+}
+
+#img-projet-proliferation-texture-2 {
+    width: 15%;
+    margin: 10px;
+}
+
+#img-projet-proliferation-texture-3 {
+    width: 15%;
+    margin: 10px;
+}
+
+#img-projet-proliferation-texture-4 {
+    width: 15%;
+    margin: 10px;
+}
