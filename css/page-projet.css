@@ -78,6 +78,9 @@ body {
     height: 90px;
 }
 
+.bouton-plus {
+    margin-bottom: 50px;
+}
 
 /**********************************/
 /************* IMAGES *************/
@@ -125,4 +128,18 @@ body {
 
 #img-projet-mute {
     width: 40%;
+}
+
+#img-projet-flowers-1 {
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+#img-projet-flowers-2 {
+    width: 60%;
+    margin-bottom: 50px;
+}
+
+#img-projet-flowers-3 {
+    width: 60%;
 }
