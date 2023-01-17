@@ -61,7 +61,6 @@ body {
 }
 
 .img-projet {
-    width: 40%;
     border: solid;
     border-color: white;
     border-width: 0.5px;
@@ -79,3 +78,43 @@ body {
     height: 90px;
 }
 
+
+/**********************************/
+/************* IMAGES *************/
+/**********************************/
+
+#img-projet-green {
+    width: 40%;
+}
+
+#img-projet-bureau {
+    width: 60%;
+}
+
+#img-projet-californie {
+    width: 40%;
+}
+
+#img-projet-baroque-1 {
+    width: 40%;
+}
+
+#img-projet-baroque-2 {
+    width: 40%;
+}
+
+#img-projet-pokemon-1 {
+    width: 80%;
+}
+
+#img-projet-pokemon-2 {
+    width: 80%;
+}
+
+#img-projet-pokemon-3 {
+    width: 80%;
+}
+
+#img-projet-correlations {
+    width: 60%;
+}
