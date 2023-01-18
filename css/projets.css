@@ -20,11 +20,24 @@ body {
     align-items: center;
 }
 
-.head {
+.illustration-home {
+    position: relative;
     display: flex;
     justify-content: center;
-    margin-top: 45vh;
-    margin-bottom: 30vh;
+    margin-top: 16vh;
+    text-align: center;
+    margin-bottom: 90px;
+}
+
+.home-txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.img-illustration-home {
+    width: 60%;
 }
 
 .galerie-projets {
