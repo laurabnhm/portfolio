@@ -92,6 +92,57 @@ body {
     color: white;
 }
 
+.formation {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+
+.galerie-formation {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.formation-box {
+    text-align: start;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.number {
+    border: solid;
+    border-color: white;
+    border-width: 0.5px;
+    width: 30px;
+    height: 25px;
+    padding: 5px;
+    color: white;
+    font-family: 'Gallient';
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.msg-box {
+    border: solid;
+    border-color: white;
+    border-width: 0.5px;
+    width: 800px;
+    padding: 15px;
+    text-align: center;
+    margin-top: 75px;
+}
+
+.like {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 120px;
+}
+
 
 /**********************************/
 /************* HOVER **************/
