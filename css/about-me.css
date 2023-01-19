@@ -263,6 +263,10 @@ body {
     border-width: 0.5px;
 }
 
+.like-hidden {
+    display: none;
+}
+
 .bas-de-page {
     height: 90px;
 }
