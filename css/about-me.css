@@ -164,6 +164,103 @@ body {
     font-weight: 400;
     font-size: 0.9vw;
     text-decoration: none;
+    margin-bottom: 50px;
+}
+
+.like-lecture {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mangas-galerie {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 750px;
+    justify-content: center;
+}
+
+.img-manga {
+    width: 15%;
+    border: solid;
+    border-color: white;
+    border-width:0.5px;
+    margin: 5px;
+}
+
+.like-voyage {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.voyage-txt {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 0.5;
+    margin-bottom: 5px;
+}
+
+.voyage-galerie {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 900px;
+}
+
+.img-voyage {
+    width: 22%;
+    border: solid;
+    border-color: white;
+    border-width: 0.5px;
+    margin: 10px;
+}
+
+.like-musique {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.music-txt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.music-number {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.music-sentence {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+.music-galerie {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.img-singers {
+    width: 10%;
+    margin-left: 10px;
+    margin-right: 10px;
+    border: solid;
+    border-color: white;
+    border-width: 0.5px;
 }
 
 .bas-de-page {
