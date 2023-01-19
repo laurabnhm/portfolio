@@ -155,3 +155,73 @@ function updateText() {
     document.querySelector('.voyage-txt').style.opacity = 0.5;
     //document.querySelectorAll('.img-voyage').style.opacity = 1;
 }
+
+
+/********************************/
+/********* PLAY MUSIC ***********/
+/********************************/
+
+let music_joji = document.querySelector('.music-joji');
+document.querySelector('#img-bouton-play-joji').addEventListener('click', playMusicJoji);
+
+function playMusicJoji() {
+    if (music_joji.paused) {
+        music_joji.play();
+        document.querySelector('#img-bouton-play-joji').src = '../img/bouton-pause.png';
+    } else {
+        music_joji.pause();
+        document.querySelector('#img-bouton-play-joji').src = '../img/bouton-play.png';
+    }
+}
+
+let music_nepal = document.querySelector('.music-nepal');
+document.querySelector('#img-bouton-play-nepal').addEventListener('click', playMusicNepal);
+
+function playMusicNepal() {
+    if (music_nepal.paused) {
+        music_nepal.play();
+        document.querySelector('#img-bouton-play-nepal').src = '../img/bouton-pause.png';
+    } else {
+        music_nepal.pause();
+        document.querySelector('#img-bouton-play-nepal').src = '../img/bouton-play.png';
+    }
+}
+
+let music_yuzmv = document.querySelector('.music-yuzmv');
+document.querySelector('#img-bouton-play-yuzmv').addEventListener('click', playMusicYuzmv);
+
+function playMusicYuzmv() {
+    if (music_yuzmv.paused) {
+        music_yuzmv.play();
+        document.querySelector('#img-bouton-play-yuzmv').src = '../img/bouton-pause.png';
+    } else {
+        music_yuzmv.pause();
+        document.querySelector('#img-bouton-play-yuzmv').src = '../img/bouton-play.png';
+    }
+}
+
+let music_georgio = document.querySelector('.music-georgio');
+document.querySelector('#img-bouton-play-georgio').addEventListener('click', playMusicGeorgio);
+
+function playMusicGeorgio() {
+    if (music_georgio.paused) {
+        music_georgio.play();
+        document.querySelector('#img-bouton-play-georgio').src = '../img/bouton-pause.png';
+    } else {
+        music_georgio.pause();
+        document.querySelector('#img-bouton-play-georgio').src = '../img/bouton-play.png';
+    }
+}
+
+let music_top = document.querySelector('.music-top');
+document.querySelector('#img-bouton-play-top').addEventListener('click', playMusicTop);
+
+function playMusicTop() {
+    if (music_top.paused) {
+        music_top.play();
+        document.querySelector('#img-bouton-play-top').src = '../img/bouton-pause.png';
+    } else {
+        music_top.pause();
+        document.querySelector('#img-bouton-play-top').src = '../img/bouton-play.png';
+    }
+}
