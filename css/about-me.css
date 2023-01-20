@@ -171,6 +171,75 @@ body {
     margin-bottom: 50px;
 }
 
+/*--- dessins ---*/
+
+.like-dessin {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 1000px;
+}
+
+.img-dessin {
+    border: solid;
+    border-color: white;
+    border-width: 0.5px;
+}
+
+.dessins-aqua {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.img-dessin-aqua {
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.planche {
+    display: flex;
+    justify-content: center;
+}
+
+.dessins-planche {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.img-dessin-planche {
+    width: 92%;
+    justify-content: center;
+}
+
+.dessins-autres {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ligne-dessin {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.img-dessin-autre-1 {
+    width: 45%;
+    margin-right: 5px;
+    margin-left: 5px;
+}
+
+.img-dessin-autre-2 {
+    width: 30%;
+    margin-right: 5px;
+}
+
 /*--- lecture ---*/
 
 .like-lecture {
