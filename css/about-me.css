@@ -285,6 +285,23 @@ body {
     margin-top: 10px;
 }
 
+/*--- sports ---*/
+
+.like-sport {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+}
+
+.sport {
+    display: flex;
+    justify-content: center;
+}
+
+.img-sports {
+    width: 40%;
+}
+
 /*----------*/
 
 .like-hidden {
