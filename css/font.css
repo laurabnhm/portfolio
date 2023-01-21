@@ -54,6 +54,15 @@
     opacity: 0.8;
 }
 
+.txt-projet {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    width: 1000px;
+    text-align: center;
+}
+
 h2 {
     color: white;
     opacity: 0.6;

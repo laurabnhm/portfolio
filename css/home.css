@@ -113,7 +113,10 @@ body {
     right: 0;
     left: 0;
     background-color: rgba(38, 19, 41, 0.75);
-    padding: 65px;
+    padding-top: 65px;
+    padding-bottom: 65px;
+    padding-right: 65px;
+    padding-left: 65px;
     opacity: 0;
 }
 
@@ -160,6 +163,9 @@ body {
     transition: 0.3s;
 }
 
+#link-linkedin:hover {
+    opacity: 0.8;
+}
 
 /**********************************/
 /*********** RESPONSIVE ***********/
@@ -183,6 +189,17 @@ body {
     .projet-box {
         width: 250px;
         height: 140px;
+        margin-left: 9px;
+        margin-right: 9px;
+        margin-top: 13px;
+        margin-bottom: 13px;
+    }
+
+    .txt-projet-hover {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-right: 15px;
+        padding-left: 15px;
     }
 
 }
