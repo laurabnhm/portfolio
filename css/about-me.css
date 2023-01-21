@@ -410,6 +410,44 @@ body {
 /*********** RESPONSIVE ***********/
 /**********************************/
 
+/*--- IPAD PRO 10,5po ---*/
+@media screen and (max-width: 1112px) {
+
+    .galerie-formation {
+        width: 800px;
+    }
+
+    .number {
+        width: 20px;
+        height: 20px;
+        font-size: 14px;
+    }
+
+    .bouton-like {
+        font-size: 12px;
+    }
+
+    .like-dessin {
+        width: 800px;
+    }
+
+    .mangas-galerie {
+        width: 700px;
+    }
+
+    .voyage-galerie {
+        width: 750px;
+    }
+
+    .music-galerie {
+        width: 750px;
+    }
+
+    .like-sport {
+        width: 700px;
+    }
+}
+
 /*--- SAFARI BABY ---*/
 @media screen and (max-width: 800px) {
 
