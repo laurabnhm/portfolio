@@ -186,3 +186,18 @@ body {
     }
 
 }
+
+/*--- SAFARI BABY ---*/
+@media screen and (max-width: 800px) {
+
+    .projet-box {
+        width: 200px;
+        height: 112px;
+    }
+
+    .vertical-lign {
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+}

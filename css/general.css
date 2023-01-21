@@ -91,7 +91,7 @@
     color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: 400;
-    font-size: 0.9vw;
+    font-size: 16px;
     text-decoration: none;
 }
 
@@ -99,7 +99,7 @@
     color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: 100;
-    font-size: 0.9vw;
+    font-size: 16px;
     margin-left: 20px;
 }
 
@@ -199,6 +199,10 @@
         width: 20px;
     }
 
+    .bouton-primaire {
+        font-size: 12px;
+    }
+
 }
 
 /*--- IPAD 9,7po ---*/
@@ -233,6 +237,10 @@
 
     .img-logo {
         width: 15px;
+    }
+
+    .bouton-primaire {
+        font-size: 10px;
     }
 
 }
