@@ -99,6 +99,30 @@ body {
 /*********** RESPONSIVE ***********/
 /**********************************/
 
+/*--- IPAD PRO 10,5po ---*/
+@media screen and (max-width: 1112px) {
+
+    .galerie-projets {
+        width: 850px;
+    }
+
+    .projet-box {
+        width: 250px;
+        height: 140.3px;
+        margin-left: 9px;
+        margin-right: 9px;
+        margin-top: 13px;
+        margin-bottom: 13px;
+    }
+
+    .txt-projet-hover {
+        padding-top: 40px;
+        padding-bottom: 40px;
+        padding-right: 15px;
+        padding-left: 15px;
+    }
+}
+
 /*--- SAFARI BABY ---*/
 @media screen and (max-width: 800px) {
 
