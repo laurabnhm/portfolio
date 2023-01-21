@@ -7,6 +7,8 @@ body {
     background-size: cover;
     background-attachment: fixed;
     overflow-x: hidden;
+    background-position: center;
+    box-sizing: border-box;
 }
 
 
@@ -401,4 +403,89 @@ body {
     scale: 1.02;
     transition: 0.2s;
     cursor: pointer;
+}
+
+
+/**********************************/
+/*********** RESPONSIVE ***********/
+/**********************************/
+
+/*--- SAFARI BABY ---*/
+@media screen and (max-width: 800px) {
+
+    .cadre-content {
+        padding-top: 25px;
+    }
+
+    .img-laura {
+        margin-left: 15px;
+        padding-right: 25px;
+    }
+
+    .galerie-formation {
+        width: 600px;
+    }
+
+    .formation-box {
+        text-align: start;
+        padding-left: 30px;
+        padding-right: 30px;
+        justify-content: space-between;
+    }
+
+    .number {
+        width: 18px;
+        height: 18px;
+        font-size: 12px;
+    }
+
+    .msg-box {
+        width: 550px;
+    }
+
+    .bouton-like {
+        font-size: 10px;
+        width: 60%;
+    }
+
+    .like-dessin {
+        width: 550px;
+    }
+
+    .mangas-galerie {
+        width: 550px;
+    }
+
+    .img-manga {
+        width: 13%;
+    }
+
+    .voyage-galerie {
+        width: 550px;
+    }
+
+    .voyage-txt {
+        font-size: 12px;
+    }
+
+    .img-voyage {
+        width: 20%;
+    }
+
+    .music-number { 
+        font-size: 20px;
+    }
+    
+    .music-sentence {
+        font-size: 10px;
+    }
+    
+    .music-galerie {
+        width: 550px;
+    }
+
+    .like-sport {
+        width: 600px;
+    }
+
 }
