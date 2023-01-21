@@ -88,3 +88,26 @@ body {
     transform: rotate(90deg) scale(0.98);
     transition: 0.5s;
 }
+
+
+/**********************************/
+/*********** RESPONSIVE ***********/
+/**********************************/
+
+/*--- SAFARI BABY ---*/
+@media screen and (max-width: 800px) {
+    
+    .msg-box {
+        width: 550px;
+    }
+
+    .boutons-rs {
+        width: 80px;
+    }
+
+    .img-boutons-rs {
+        width: 30px;
+        margin: 5px;
+    }
+
+}
