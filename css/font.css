@@ -126,6 +126,11 @@ p {
         font-size: 12px;
     }
 
+    .txt-projet {
+        font-size: 14px;
+        width: 800px;
+    }
+
 }
 
 /*--- IPAD 9,7po ---*/
