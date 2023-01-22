@@ -198,3 +198,17 @@ body {
 #img-projet-stickers-5 {
     width: 35%;
 }
+
+
+/**********************************/
+/*********** RESPONSIVE ***********/
+/**********************************/
+
+/*--- SAFARI BABY ---*/
+@media screen and (max-width: 800px) {
+
+    .lign-head {
+        width: 100px;
+    }
+
+}

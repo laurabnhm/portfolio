@@ -164,6 +164,19 @@ p {
         font-size: 10px;
     }
 
+    .sub-title {
+        font-size: 14px;
+    }
+
+    .txt-collab {
+        font-size: 10px;
+    }
+
+    .txt-projet {
+        font-size: 10px;
+        width: 580px;
+    }
+
     h2 {
         font-size: 14px;
     }
