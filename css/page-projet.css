@@ -83,6 +83,10 @@ body {
 /************* IMAGES *************/
 /**********************************/
 
+#img-projet-bastet {
+    width: 40%;
+}
+
 .galerie-pochettes {
     display: flex;
     flex-direction: row;
