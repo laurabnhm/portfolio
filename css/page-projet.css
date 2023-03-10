@@ -83,6 +83,22 @@ body {
 /************* IMAGES *************/
 /**********************************/
 
+.img-projet-mocap-scene {
+    width: 60%;
+}
+
+.img-projet-mocap-test {
+    width: 30%;
+}
+
+.img-projet-mocap-perso {
+    width: 40%;
+}
+
+.img-projet-mocap-da {
+    width: 80%;
+}
+
 #img-projet-carto {
     width: 70%;
 }
