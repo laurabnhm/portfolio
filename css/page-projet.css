@@ -1,0 +1,77 @@
+/**********************************/
+/************** BODY **************/
+/**********************************/
+
+body {
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+
+/**********************************/
+/************ GÉNÉRAL *************/
+/**********************************/
+
+.txt-projet {
+    margin-top: 50px;
+    margin-left: 100px;
+    width: 700px;
+}
+
+.video {
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.img-projet {
+    width: 1300px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.button-solo {
+    margin-top: 50px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
+.buttons-page-projet {
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+
+/**********************************/
+/************** SPEC **************/
+/**********************************/
+
+.galerie-img-projets {
+    display: flex;
+    flex-direction: column;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ligne-projet {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 25px;
+
+}
+
+.img-projet-box {
+    margin-right: 25px;
+    width: 625px;
+}
+
+.img-projet-box-triple {
+    margin-right: 25px;
+    width: 405px;
+}

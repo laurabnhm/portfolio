@@ -1,0 +1,191 @@
+/**********************************/
+/************** BODY **************/
+/**********************************/
+
+body {
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+
+/**********************************/
+/********** PRESENTATION **********/
+/**********************************/
+
+.section-presentation {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.presentation-img {
+    padding-top: 100px;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.img-laura {
+    width: 350px;
+}
+
+.presentation-txt {
+    border-left: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.txt-about-me {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+
+/**********************************/
+/*************** CV ***************/
+/**********************************/
+
+.section-cv {
+    display: flex;
+    flex-direction: row;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.cv-formation-interest {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/**********************************/
+/************ FORMATION ***********/
+/**********************************/
+
+.galerie-formation {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.formation-box {
+    color: white;
+    font-family: 'RedHatDisplay';
+    margin-top: 25px;
+}
+
+.txt-date {
+    font-size: 20px;
+    color: #8a8a8a;
+    font-weight: bold;
+}
+
+.txt-name {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.txt-option {
+    font-size: 20px;
+    color: #8a8a8a;
+}
+
+.txt-place {
+    font-size: 20px;
+}
+
+
+/**********************************/
+/*********** EXPERIENCE ***********/
+/**********************************/
+
+
+.section-exp {
+    border-right: solid;
+    border-width: 2px;
+    border-color: white;
+    width: 60%;
+}
+
+.galerie-exp {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.exp-box {
+    color: white;
+    font-family: 'RedHatDisplay';
+    margin-top: 25px;
+}
+
+
+
+/**********************************/
+/*********** INTEREST ***********/
+/**********************************/
+
+.section-interest {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.section-interest-show {
+    margin-bottom: 100px;
+    margin-right: 100px;
+}
+
+.buttons-interest {
+    margin-left: 100px;
+    display: block;
+    flex-direction: column;
+}
+
+.button-interest {
+    margin-right: 15px;
+}
+
+.section-interest-hide {
+    border-left: solid;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    max-width: 50%;
+    width: 60%;
+    height: 450px;
+    background-image: url(../img/like-voyage-quebec.png);
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+/**********************************/
+/************* HOVER **************/
+/**********************************/
+
+
+
+
+/**********************************/
+/*********** RESPONSIVE ***********/
+/**********************************/
+
+/*--- IPAD PRO 10,5po ---*/
+@media screen and (max-width: 1112px) {
+
+
+}
+
+/*--- SAFARI BABY ---*/
+@media screen and (max-width: 800px) {
+
+}

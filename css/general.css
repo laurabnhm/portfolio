@@ -1,0 +1,212 @@
+/**********************************/
+/************ GENERAL *************/
+/**********************************/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.gabarit {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.gabarit-int {
+    margin-top: 73.5px;
+    display: flex;
+    flex-direction: row;
+}
+
+.section-sentence {
+    border-right: solid;
+    border-width: 2px;
+    border-color: white;
+    width: 200px;
+}
+
+.sentence {
+    transform: rotate(-90deg);
+    font-family: 'Gallient';
+    color: rgb(184, 184, 184);
+    font-size: 50px;
+    display: none;
+}
+
+.section-corps {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/**********************************/
+/************** MENU **************/
+/**********************************/
+
+.section-menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+    box-sizing: border-box;
+    position: fixed;
+    width: 100%;
+    z-index: 100;
+    background-color: black;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.menu-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.menu-lign {
+    background-color: white;
+    width: 100px;
+    height: 0.5px;
+    margin-top: 10px;
+    scale: 0;
+}
+
+.img-logo {
+    width: 25px;
+}
+
+.select-lang {
+    font-size: 12px;
+}
+
+.menu-hamburger-open {
+    display: none;
+}
+
+/**********************************/
+/************ BOUTONS *************/
+/**********************************/
+
+.button-prim {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: solid;
+    border-color: white;
+    border-width: 1px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    color: white;
+    font-family: 'RedHatDisplay';
+    font-weight: bold;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.button-scnd {
+    color: white;
+    font-family: 'RedHatDisplay';
+    font-weight: lighter;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+/**********************************/
+/************ GRAPHICS ************/
+/**********************************/
+
+.title-lign {
+    background-color: white;
+    width: 500px;
+    height: 0.5px;
+    margin-top: 15px;
+    margin-bottom: 50px;
+}
+
+
+/**********************************/
+/************* HOVER **************/
+/**********************************/
+
+.img-logo:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transform: scale(1.05);
+    transition: 0.2s;
+}
+
+.menu-txt:hover {
+    cursor: pointer;
+    color: rgba(255, 255, 255, 0.8);
+    transition: 0.2s;
+}
+
+#menu-txt-accueil:hover ~ #menu-lign-accueil {
+    scale: 1;
+    transition: 0.4s;
+}
+
+#menu-txt-about:hover ~ #menu-lign-about {
+    scale: 1;
+    transition: 0.4s;
+}
+
+#menu-txt-projets:hover ~ #menu-lign-projets {
+    scale: 1;
+    transition: 0.4s;
+}
+
+#menu-txt-contact:hover ~ #menu-lign-contact {
+    scale: 1;
+    transition: 0.4s;
+}
+
+.button-prim:hover {
+    cursor: pointer;
+    background-color: rgba(255, 255, 255, 0.2);
+    transition: 0.2s;
+    scale: 1.02;
+}
+
+.button-scnd:hover {
+    cursor: pointer;
+    opacity: 0.8;
+    transition: 0.2s;
+}
+
+
+/**********************************/
+/*********** RESPONSIVE ***********/
+/**********************************/
+
+/*--- IPAD PRO 12,9po ---*/
+@media screen and (max-width: 1366px) {
+
+
+}
+
+/*--- IPAD PRO 10,5po ---*/
+@media screen and (max-width: 1112px) {
+
+}
+
+/*--- IPAD 9,7po ---*/
+@media screen and (max-width: 1024px) {
+
+}
+
+/*--- SAFARI BABY ---*/
+@media screen and (max-width: 800px) {
+
+}

@@ -1,0 +1,216 @@
+/**********************************/
+/************** BODY **************/
+/**********************************/
+
+body {
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    box-sizing: border-box;
+}
+
+
+/**********************************/
+/************** HOME **************/
+/**********************************/
+
+.section-home {
+    padding: 100px;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.home-txt-presentation {
+    font-family: 'Gallient';
+    color: white;
+    font-size: 150px;
+    line-height: 1em;
+}
+
+.home-txt-job {
+    font-family: 'Gallient';
+    color: #8a8a8a;
+    font-size: 100px;
+    margin-top: 30px;
+}
+
+
+/**********************************/
+/*********** WORDINGS *************/
+/**********************************/
+
+.section-wordings {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-expertises {
+    border-right: solid;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+}
+
+.expertises-list {
+    margin-left: 100px;
+    margin-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+}
+
+.expert-list-column {
+    display: flex;
+    flex-direction: column;
+    margin-right: 150px;
+}
+
+.expert-list-icon {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.expert-list {
+    font-family: 'RedHatDisplay';
+    font-size: 24px;
+    color: rgb(189, 189, 189);
+    margin-top: 5px;
+}
+
+.section-logo {
+    align-items: center;
+    justify-content: space-between;
+}
+
+.img-wordings-logo {
+    width: 150px;
+    margin-right: 100px;
+}
+
+
+/**********************************/
+/*********** ABOUT ME *************/
+/**********************************/
+
+.section-about-me {
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: white;
+    padding-bottom: 100px;
+}
+
+.txt-about-me {
+    margin: 25px 100px 50px 100px;
+}
+
+.button-about-me {
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+
+
+/**********************************/
+/************ PROJETS *************/
+/**********************************/
+
+.projets-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+}
+
+.projet-box {
+    flex-grow: 1;
+    position: relative;
+}
+
+.projet-box-center {
+    border-left: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.projet-box-right {
+    border-left: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.img-projet-box {
+    width: 100%;
+}
+
+.txt-projet-hover {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 50px;
+    padding-top: 120px;
+    opacity: 0;
+}
+
+/**********************************/
+/************ CONTACT *************/
+/**********************************/
+
+.section-contact {
+    border-top: solid;
+    border-width: 2px;
+    border-color: white;
+    margin-bottom: 100px;
+}
+
+.txt-contact {
+    font-family: 'RedHatDisplay';
+    color: white;
+    font-size: 20px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.button-contact {
+    margin-left: 100px;
+}
+
+
+/**********************************/
+/************* HOVER **************/
+/**********************************/
+
+.txt-projet-hover:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+/**********************************/
+/*********** RESPONSIVE ***********/
+/**********************************/
+
+/*--- IPAD PRO 12,9po ---*/
+@media screen and (max-width: 1366px) {
+
+}
+
+/*--- IPAD PRO 10,5po ---*/
+@media screen and (max-width: 1112px) {
+
+}
+
+/*--- SAFARI BABY ---*/
+@media screen and (max-width: 800px) {
+
+}

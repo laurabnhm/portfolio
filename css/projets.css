@@ -1,0 +1,75 @@
+/**********************************/
+/************** BODY **************/
+/**********************************/
+
+body {
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+
+/**********************************/
+/************** PAGE **************/
+/**********************************/
+
+.projets-lign {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.projet-box {
+    flex-grow: 1;
+    position: relative;
+    border-right: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    border-color: white;
+}
+
+.img-projet-box {
+    width: 100%;
+}
+
+.txt-projet-hover {
+    position: absolute;
+    text-align: center;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.705);
+    padding: 50px;
+    padding-top: 200px;
+    opacity: 0;
+}
+
+
+/**********************************/
+/************** HOVER *************/
+/**********************************/
+
+.txt-projet-hover:hover {
+    cursor: pointer;
+    opacity: 1;
+    transition: 0.3s;
+}
+
+
+/**********************************/
+/*********** RESPONSIVE ***********/
+/**********************************/
+
+/*--- IPAD PRO 10,5po ---*/
+@media screen and (max-width: 1112px) {
+
+}
+
+/*--- SAFARI BABY ---*/
+@media screen and (max-width: 800px) {
+
+}

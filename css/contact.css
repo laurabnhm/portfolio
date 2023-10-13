@@ -1,0 +1,70 @@
+/**********************************/
+/************** BODY **************/
+/**********************************/
+
+body {
+    background-color: black;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+
+/**********************************/
+/************** PAGE **************/
+/**********************************/
+
+/* .gabarit-int {
+    background-image: url(../img/back-contact.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x: hidden; 
+    box-sizing: border-box;
+} */
+
+.box-contact {
+    padding-bottom: 100px;
+    width: 650px;
+    margin-top: 50vh;
+    transform: translateY(-60%);
+}
+
+.txt-contact {
+    margin-left: 100px;
+}
+
+.buttons-contact, .adresse-mail {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.buttons-rs {
+    margin-top: 30px;
+    margin-left: 100px;
+    
+}
+
+.img-buttons-rs {
+    width: 50px;
+    margin-right: 15px;
+    text-decoration: none;
+}
+
+/**********************************/
+/************* HOVER **************/
+/**********************************/
+
+.img-buttons-rs:hover {
+    cursor: pointer;
+    transform: rotate(90deg) scale(0.98);
+    transition: 0.5s;
+}
+
+
+/**********************************/
+/*********** RESPONSIVE ***********/
+/**********************************/

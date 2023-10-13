@@ -1,0 +1,162 @@
+/**********************************/
+/************** FONTS *************/
+/**********************************/
+
+@font-face {
+    font-family: 'Gallient';
+    src: url(../fonts/Gallient.ttf);
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
+    src: url(../fonts/RedHatDisplay-Bold.ttf);
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
+    src: url(../fonts/RedHatDisplay-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
+    src: url(../fonts/RedHatDisplay-Regular.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
+    src: url(../fonts/RedHatDisplay-Italic.ttf);
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
+    src: url(../fonts/RedHatDisplay-Light.ttf);
+    font-weight: lighter ;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'RedHatDisplay';
+    src: url(../fonts/RedHatDisplay-LightItalic.ttf);
+    font-weight: lighter ;
+    font-style: italic;
+}
+
+
+
+
+/**********************************/
+/************** MENU *************/
+/**********************************/
+
+.menu-txt {
+    color: white;
+    font-family:'RedHatDisplay';
+    font-size: 12px;
+    text-decoration: none;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.menu-txt-light {
+    font-weight: lighter;
+}
+
+.menu-txt-bold {
+    font-weight: bold;
+}
+
+
+/**********************************/
+/************ GENERAL *************/
+/**********************************/
+
+ion-icon {
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.title {
+    color: white;
+    font-family: 'Gallient';
+    font-size: 52px;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 20px;
+}
+
+.title-projects {
+    color: white;
+    font-family: 'Gallient';
+    font-size: 52px;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+
+.sub-title {
+    color: #8a8a8a;
+    font-family: 'RedHatDisplay';
+    font-weight: normal;
+    font-size: 38px;
+    margin-left: 100px;
+}
+
+.collab {
+    color: white;
+    font-family: 'RedHatDisplay';
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 100px;
+}
+
+h3 {
+    font-family: 'RedHatDisplay';
+    font-size: 30px;
+    color: white;
+    font-weight: bold;
+}
+
+h4 {
+    font-family: 'RedHatDisplay';
+    font-weight: bold;
+    font-size: 18px;
+    color: rgb(189, 189, 189);
+}
+
+.txt-regular {
+    font-family: 'RedHatDisplay';
+    font-size: 20px;
+    color: white;
+}
+
+.txt-bold {
+    font-family: 'RedHatDisplay';
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.txt-link {
+    color: white;
+    text-decoration: none;
+}
+
+.txt-legende {
+    font-family: 'RedHatDisplay';
+    font-size: 15px;
+    color: rgb(189, 189, 189);
+}
+
+.in-progress {
+    color: #8a8a8a;;
+    font-family: 'Gallient';
+    font-size: 50px;
+    margin-left: 100px;
+}
