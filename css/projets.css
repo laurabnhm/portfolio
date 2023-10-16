@@ -25,10 +25,10 @@ body {
 .projet-box {
     flex-grow: 1;
     position: relative;
-    border-right: solid;
+    /* border-right: solid;
     border-bottom: solid;
     border-width: 2px;
-    border-color: white;
+    border-color: white; */
 }
 
 .img-projet-box {
