@@ -16,7 +16,23 @@ body {
 /************** PAGE **************/
 /**********************************/
 
+.gallery {
+    display: flex;
+    flex-direction: column;
+    width: 1300px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
 
+.gallery-box {
+    display: flex;
+    flex-direction: row;
+}
+
+.gallery-inter-box {
+    display: flex;
+    flex-direction: column;
+}
 
 
 /**********************************/
