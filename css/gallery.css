@@ -16,6 +16,12 @@ body {
 /************** PAGE **************/
 /**********************************/
 
+.txt-gallery {
+    width: 1000px;
+    margin-left: 100px;
+    margin-bottom: 50px;
+}
+
 .gallery {
     padding-left: 100px;
     padding-right: 100px;
@@ -51,7 +57,7 @@ body {
     left: 0;
     background-color: rgba(0, 0, 0, 0.705);
     padding: 50px;
-    padding-top: 200px;
+    padding-top: 100px;
     opacity: 0;
 }
 
